@@ -1,0 +1,28 @@
+.calendar-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.calendar-title {
+  font-size: 4rem;
+  letter-spacing: 0.2rem;
+  font-weight: 100;
+  color: #2f0707;
+  margin-bottom: 12px;
+  font-family: Bebas Neue, sans-serif;
+}
+
+.calendar-divider {
+  width: 60px;
+  height: 2px;
+  background-color: #111;
+  margin: 0 auto 40px;
+}
+
+.calendar-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}

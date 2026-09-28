@@ -1,0 +1,53 @@
+.navbar {
+ position: sticky;
+  top: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 15px 30px;
+
+  background: rgba(200, 200, 200, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+  z-index: 100;
+
+  position: relative;
+}
+
+.navbar a {
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+
+  padding: 6px 10px;
+  border-radius: 8px;
+
+  transition: 0.2s ease;
+}
+
+
+.navbar a:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 30px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 25px;
+}

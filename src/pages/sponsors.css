@@ -1,0 +1,76 @@
+.sponsors-page {
+  padding: 60px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+.sponsors-page p {
+  color: #5f5e5a;
+  margin-bottom: 48px;
+}
+
+.sponsors-strip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.sponsor-logo {
+  opacity: 0.8;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.sponsor-logo:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.sponsor-logo img {
+  height: 200px;
+  width: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 600px) {
+  .sponsors-strip {
+    gap: 40px;
+  }
+
+  .sponsor-logo img {
+    height: 70px;
+  }
+}
+
+.sponsors-cta {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.sponsors-cta p {
+  font-size: 1.1rem;
+  color: #2f0404;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.packet-btn {
+  display: inline-block;
+  padding: 14px 32px;
+  background: #410910;
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.packet-btn:hover {
+  background: #9b1a2a;
+  transform: translateY(-2px);
+}
